@@ -1,0 +1,37 @@
+body * {
+    box-sizing: border-box;
+    font: 12pt Arial, sans-serif;
+
+}
+#grid {
+    border-collapse: collapse;
+    line-height: 1;
+}
+#grid td, #grid th {
+    border: 1px solid #333;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    -webkit-transition: all 0.1s;
+    -webkit-user-select: none;
+}
+#grid td.pitch {
+    width: 64px;
+}
+#grid td.pitch input {
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 0  ;
+    text-align: center;
+    height: 100%;
+}
+
+td.active1 { background: #ffea00 !important; }
+td.active2 { background: orange !important; }
+td.active3 { background: #de3f03 !important; }
+td.active4 { background: #ce0002 !important; }
+
+td.current {
+    background: purple;
+}
